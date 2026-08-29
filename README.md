@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/github/license/Pasumao/dsh-plugin-table-zoom)
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2)
 
+[**中文**](./README.md) | [English](./README.en.md)
+
 DeepSeek Harness (dsh) Web GUI 聊天表格浮窗插件。
 
 聊天里模型输出的 markdown 表格经常**很长（行数多）或很宽（横向溢出）**，
@@ -12,6 +14,13 @@ DeepSeek Harness (dsh) Web GUI 聊天表格浮窗插件。
 表格，并支持**一键复制为 Markdown**。
 
 纯前端 DOM 增强：不改核心包、不注册工具、无服务端逻辑、零运行时依赖。
+
+## 效果图
+
+![table-zoom 实机截图：宽表弹出「⛶ 浮窗查看」浮窗，完整显示大表](docs/table-zoom-float.png)
+
+> 真实 Web GUI 截图（上方大宽表 → 点「⛶ 浮窗查看」→ 浮窗内完整浏览，
+> 支持拖拽改尺寸 / Ctrl+滚轮缩放 / 空格拖拽平移 / 一键复制 Markdown）。
 
 ## 功能
 

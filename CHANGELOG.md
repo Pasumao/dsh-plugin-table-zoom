@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.5] - 2026-08-29
+
+- 文档：安装节补单行 dsh plugin add 命令（原四步手动挂载降为备选）；
+- 元数据：description 补缩放/平移/复制卖点，keywords 11 → 18；
+- 新增英文版 README.en.md 与双语切换行。
 ## [0.3.4] - 2026-08-25
 
 - 相关插件段新增 dsh-plugin-windows-guard（Windows 环境防坑守则 skill 插件，互相引流）。

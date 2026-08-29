@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-table-zoom",
   "description": "DSH 聊天表格浮窗插件：markdown 表格太长（行多）或太宽（溢出）看不完时，表格上方自动出现「⛶ 浮窗查看」按钮——弹出可独立滚动的浮窗完整显示，支持拖拽移动/改尺寸、Ctrl+滚轮 60%–250% 缩放、空格拖拽平移、一键复制为 Markdown。纯前端 DOM 增强，不改核心包、不注册工具、无服务端逻辑。",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -12,9 +12,11 @@
   "files": [
     "lib",
     "scripts",
+    "docs",
     "cordis.patch.yml",
     "CHANGELOG.md",
     "README.md",
+    "README.en.md",
     "LICENSE",
     "设计说明.md"
   ],
