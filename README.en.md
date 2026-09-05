@@ -1,10 +1,16 @@
-[中文](./README.md) | **English**
+<p align="center">
+  <img src="docs/banner.svg" alt="dsh-plugin-table-zoom banner" width="100%">
+</p>
 
 # dsh-plugin-table-zoom
 
 ![npm version](https://img.shields.io/npm/v/dsh-plugin-table-zoom)
+![npm downloads](https://img.shields.io/npm/dm/dsh-plugin-table-zoom)
 ![License](https://img.shields.io/github/license/Pasumao/dsh-plugin-table-zoom)
+![Stars](https://img.shields.io/github/stars/Pasumao/dsh-plugin-table-zoom?style=social)
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted-8A2BE2)
+
+[中文](./README.md) | **English**
 
 A chat table float-window plugin for the DeepSeek Harness (dsh) Web GUI.
 
@@ -161,6 +167,7 @@ together:
 | [dsh-plugin-image-tools](https://www.npmjs.com/package/dsh-plugin-image-tools) | [GitHub repo](https://github.com/Pasumao/dsh-plugin-image-tools) | Image choice cards + inline images in replies + image intake for blind models |
 | [dsh-plugin-workbench](https://www.npmjs.com/package/dsh-plugin-workbench) | [GitHub repo](https://github.com/Pasumao/dsh-plugin-workbench) | VS Code-style file explorer + editable preview |
 | [dsh-plugin-windows-guard](https://www.npmjs.com/package/dsh-plugin-windows-guard) | [GitHub repo](https://github.com/Pasumao/dsh-plugin-windows-guard) | Windows pitfall protection: guideline skills + mojibake detection / dangerous-write blocking / encoding diagnosis & repair |
+| [dsh-plugin-context-trim](https://www.npmjs.com/package/dsh-plugin-context-trim) | [GitHub repo](https://github.com/Pasumao/dsh-plugin-context-trim) | Per-session injection gate: trim skills / tools / prompt sections per session |
 
 > The rest of the series: [Pasumao · dsh plugins](https://github.com/Pasumao); if you find these useful,
 > a ⭐ on GitHub is appreciated.
