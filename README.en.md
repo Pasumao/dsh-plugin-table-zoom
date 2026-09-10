@@ -39,6 +39,8 @@ runtime dependencies.
 - Clicking the button opens the float window: the title shows "Table · N rows × M columns", the body scrolls
   independently (both horizontally and vertically), it closes via the close button / Esc / clicking the
   overlay, and chat-page scrolling is locked while it is open;
+- **Precise scroll-lock restore on close**: body scroll is unlocked only if this plugin locked it, so
+  coexisting overlays (e.g. the dsh-plugin-image-tools lightbox) are never restored out of order;
 - A "Copy as Markdown" button in the window header copies the whole table in one click (inline line breaks
   in cells are collapsed, pipe characters are escaped);
 - The float window shows a **clone of the original table** — the table in chat stays untouched and is not

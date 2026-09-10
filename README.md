@@ -34,6 +34,8 @@ DeepSeek Harness (dsh) Web GUI 聊天表格浮窗插件。
 - 短表不打扰；
 - 点击按钮弹出浮窗：标题显示「表格 · N 行 × M 列」，正文可独立滚动（横竖都行），
   关闭按钮 / Esc / 点击遮罩均可关闭，打开期间锁定聊天页滚动；
+- **关闭时滚动锁还原精确**：只在自己锁过 body 滚动时才解锁，与
+  dsh-plugin-image-tools 的放大层等其他浮层共存时不会错乱恢复；
 - 浮窗头部「复制为 Markdown」按钮一键复制整表（单元格内联换行折叠、管道符转义）；
 - 浮窗里展示的是**原表格的克隆**，聊天里的表格保持不变，也不会被重复增强；
 - **拖拽改尺寸**：浮窗右下角手柄可自由调整大小（最小 320×200，最大到视口留白），
@@ -155,8 +157,8 @@ npm run pack         # 打包
 | [dsh-plugin-image-tools](https://www.npmjs.com/package/dsh-plugin-image-tools) | [GitHub 仓库](https://github.com/Pasumao/dsh-plugin-image-tools) | 图片选择卡 + 回复内嵌图片 + 盲模型收图 |
 | [dsh-plugin-workbench](https://www.npmjs.com/package/dsh-plugin-workbench) | [GitHub 仓库](https://github.com/Pasumao/dsh-plugin-workbench) | VS Code 风格文件浏览器 + 可编辑预览 |
 | [dsh-plugin-windows-guard](https://www.npmjs.com/package/dsh-plugin-windows-guard) | [GitHub 仓库](https://github.com/Pasumao/dsh-plugin-windows-guard) | Windows 环境防坑：守则技能 + 乱码检测 / 危险写拦截 / 编码诊断修复 |
-
 | [dsh-plugin-context-trim](https://www.npmjs.com/package/dsh-plugin-context-trim) | [GitHub 仓库](https://github.com/Pasumao/dsh-plugin-context-trim) | 会话注入门控：skill / tool / 提示词段落按会话裁剪 |
+
 > 本系列其余插件见 [Pasumao · dsh 插件](https://github.com/Pasumao)；觉得好用欢迎到 GitHub 点 ⭐。
 
 ## AI 生成声明
